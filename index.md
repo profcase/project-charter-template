@@ -32,61 +32,84 @@ This application is used by __ types of users.
 2. Role 2 (name each role)
 3. Role 3...
 
-For use cases by role, see ___ (link to a separate published document).
+## Stories by Role
+
+For each role, provide a numbered list of stories in the form "As a [user role], I want [some goal] so that [reason]".
+
+Stories will be maintained in JIRA. 
 
 ## Team Organization
 
 This team is organized as follows.
 
-|                        | Primary   | Secondary   |
-| ---------------------- | --------- | ----------- |
-| Team Lead              |           |             |
-| Architect              |           |             |
-| Data                   |           |             |
-| UX                     |           |             |
-| Testing & Acceptance   |           |             |
+|                        | Primary   | Secondary   | Content |
+| ---------------------- | --------- | ----------- |---------|
+| Team Lead              |           |             | Repo, intro, budget, schedule, risk, coordination   |
+| Architect              |           |             | E-R diagram |
+| Data                   |           |             | Sample data |
+| UX                     |           |             | Sketches  |
+| Testing & Acceptance   |           |             | Stories, acceptance criteria |
 
 ## Scope
 
 ### Phase 1 - Conception and initiation (Module 1)
 
+Phase 1 involves a friendly competition between muliple teams, 
+each completing a quick (2-week, 1 module) exercise to develop a vision for the project 
+on a given platform. In competitions, this exercise may be done in an afternoon. 
+During Phase 1, the teams will work independently and each vision will be shared with the client. 
+
 Deliverables:
 
-- This project charter
+- Project charter
+- Supporting artifacts (as described in this document)
 - Contract (link - the contract will reference this charter and supporting documents)
 
-This phase includes:
+This phase includes the development of:
 
-- Initial use cases (link)
+- Initial stories by role (link)
+- Initial acceptance criteria (link)
 - Initial E-R diagram (link)
 - Initial sample data (link)
 - Initial project sketches (link - images must be displayed)
 - For each phase, initial scope, schedule, budget (included in this document)
-- Initial client acceptance requirements (included in this document)
+
 
 ### Phase 2 - Definition and planning (Module 2 and 3)
 
+During Phase 2, the best parts of each platform-specific charter will be used to create a single, 
+consolidated charter that allows different platforms to share fundamental aspects such as the E-R diagram and 
+sample data.
+
 Deliverables:
 
-- Updated project charter
+- Combined project charter
+- Integrated supporting artifacts (taking the best from Phase 1)
 
 Include:
 
-- Final user roles (see above)
-- Complete set of use cases by role (link)
+- Final stories by role (see above)
+- Final acceptance criteria (see above)
 - Final E-R diagram (link)
 - Final set of sample data (link)
-- Detailed project sketches (link - images must be displayed)
-- Client acceptance requirements (included in this document)
+- Detailed project sketches by platform (link - images must be displayed)
+- Architectural decisions, including platforms, languages, frameworks, libraries, cloud resources, data stores, releases, milestones, authentication, authorization, responsive supports, progressive supports, security, performance requirements, traditional or SPA, client-side rendering vs server-side rendering, REST vs GraphQL, web vs native vs hybrid, etc.
+- List of projects with versions in JIRA
+- Schedules for sprints, client presentations, milestones and acceptance criteria in JIRA
+- Construction of product backlogs built from epics, stories, tasks, and subtasks in JIRA
 
 ### Phase 3 - Implementation of architectural prototypes (Module 4 and 5)
+
+During Phase 3, new teams will be defined to work in parallel (again in friendly competition) to build platform-specific architectural prototypes to identify any major issues with the plan. 
 
 Deliverables:
 
 - Updated versions of all artifacts
+- JIRA management system
+- Working prototype deployed in each proposed platform
 - Presentation of architectural prototype to client and extended team (include pros & cons of these choices).
 - Together with the client decide what platform(s) will be selected for implementation.
-- Signed acceptance by the client
+- Client acceptance of the plan
 
 ### Phase 4 - System requirement specification (Module 6)
 
@@ -106,7 +129,7 @@ The following items are specifically not included in this scope of work:
 
 ## Schedule
 
-In general, the following schedule will be followed:
+The following general schedule will be followed:
 
 - Phase 1 completed and presented at the end of week 2. 
 - Client feedback and updates completed at the end of week 3.
@@ -118,7 +141,9 @@ In general, the following schedule will be followed:
 - Client feedback and updates completed at the end of week 15.
 - Project reflections and discussions completed during week 16.
 
-A detailed schedule is shown in the following Gantt chart:
+You will develop the schedule for next semester as part of this work. 
+
+The complete schedule is shown in the following Gantt chart:
 - Display or link to the current project Gantt chart 
 - Schedule by work tasks by phase
 - Include through final implementation (next semester)
@@ -139,8 +164,8 @@ The following have been identified as risks that could contribute to not making 
 
 - The client changes requirements mid-project...
 
-## Acceptance
+## Acceptance criteria
 
-- Describe clearly what will be provided at each phase. 
+- For each story, enumerate and clearly describe the acceptance criteria. 
 - Be specific - your client may have a very different definition of vague words. 
 
